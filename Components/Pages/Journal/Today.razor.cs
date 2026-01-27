@@ -100,10 +100,12 @@ namespace JournalApp.Components.Pages.Journal
             try
             {
                 var saved = await JournalService.CreateOrUpdateTodayAsync(Model);
-                Model = saved;
-                HasEntry = true;
-
-                Message = "Saved successfully.";
+                // Reset for next entry as requested
+                Model = new JournalEntry { EntryDate = DateTime.Today };
+                HasEntry = false;
+                SecondaryMoodSet.Clear();
+                
+                Message = "Saved! You can now write another entry.";
             }
             catch (Exception ex)
             {
@@ -111,8 +113,6 @@ namespace JournalApp.Components.Pages.Journal
                 Console.WriteLine(ex);
             }
             IsSaving = false;
-
-
         }
 
         protected async Task DeleteAsync()
