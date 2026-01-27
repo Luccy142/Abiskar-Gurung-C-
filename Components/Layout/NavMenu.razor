@@ -1,5 +1,6 @@
 ﻿@namespace JournalApp.Components.Layout
 @inject NavigationManager Nav
+@using JournalApp.Services.Implementations
 
 <style>
     /* ===== LIGHT PROFESSIONAL THEME ===== */
@@ -203,8 +204,11 @@
 </div>
 
 @code {
+    [Inject] SessionService Session { get; set; } = default!;
+
     private void LockApp()
     {
+        Session.IsUnlocked = false; // Force lock state
         Nav.NavigateTo("/lock", true);
     }
 }

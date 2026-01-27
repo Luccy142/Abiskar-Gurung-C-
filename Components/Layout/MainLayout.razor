@@ -1,20 +1,36 @@
 @namespace JournalApp.Components.Layout
 @using JournalApp.Services.Interfaces
+@using JournalApp.Services.Implementations
 @using Microsoft.JSInterop
 @inherits LayoutComponentBase
 @implements IDisposable
 @inject IThemeService ThemeService
 @inject IJSRuntime JSRuntime
+@inject SessionService Session
+@inject NavigationManager Nav
 
-<div class="app-shell">
-    <aside class="sidebar">
-        <NavMenu />
-    </aside>
+@if (!Session.IsUnlocked && 
+     !Nav.Uri.Contains("/lock", StringComparison.OrdinalIgnoreCase))
+{
+    @* Force redirect if trying to access protected content while locked *@
+    <div style="display:none">@{ Nav.NavigateTo("/lock", true); }</div>
+}
 
-    <main class="main">
-        @Body
-    </main>
-</div>
+@if (Session.IsUnlocked || Nav.Uri.Contains("/lock", StringComparison.OrdinalIgnoreCase))
+{
+    <div class="app-shell">
+        @if (Session.IsUnlocked)
+        {
+            <aside class="sidebar">
+                <NavMenu />
+            </aside>
+        }
+
+        <main class="main">
+            @Body
+        </main>
+    </div>
+}
 
 <style>
     .app-shell {
@@ -40,6 +56,12 @@
         {
             ThemeService.ThemeChanged += HandleThemeChanged;
             await ApplyThemeAsync(ThemeService.GetTheme());
+
+            // Initial lock check
+            if (!Session.IsUnlocked && !Nav.Uri.Contains("/lock", StringComparison.OrdinalIgnoreCase))
+            {
+               Nav.NavigateTo("/lock", true);
+            }
         }
 
         await base.OnAfterRenderAsync(firstRender);
