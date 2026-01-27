@@ -461,19 +461,19 @@
             </div>
 
             <div class="toolbar">
-                <button class="tool-btn" type="button" @onclick="@(() => InsertMarkdown("**bold**"))">🅱️ Bold</button>
-                <button class="tool-btn" type="button" @onclick="@(() => InsertMarkdown("*italic*"))">𝑖 Italic</button>
-                <button class="tool-btn" type="button" @onclick="@(() => InsertMarkdown("# Heading"))">H1</button>
-                <button class="tool-btn" type="button" @onclick="@(() => InsertMarkdown("## Heading"))">H2</button>
-                <button class="tool-btn" type="button" @onclick="@(() => InsertMarkdown("- list item"))">• List</button>
-                <button class="tool-btn" type="button" @onclick="@(() => InsertMarkdown("[text](https://example.com)"))">🔗 Link</button>
+                <button class="tool-btn" type="button" @onclick="@(async () => await InsertMarkdownAsync("**", "**"))">🅱️ Bold</button>
+                <button class="tool-btn" type="button" @onclick="@(async () => await InsertMarkdownAsync("*", "*"))">𝑖 Italic</button>
+                <button class="tool-btn" type="button" @onclick="@(async () => await InsertMarkdownAsync("# ", ""))">H1</button>
+                <button class="tool-btn" type="button" @onclick="@(async () => await InsertMarkdownAsync("## ", ""))">H2</button>
+                <button class="tool-btn" type="button" @onclick="@(async () => await InsertMarkdownAsync("- ", ""))">• List</button>
+                <button class="tool-btn" type="button" @onclick="@(async () => await InsertMarkdownAsync("[", "](https://)"))">🔗 Link</button>
             </div>
         </div>
 
         <div class="split">
             <div class="pane">
                 <div class="pane-title">🧩 Editor</div>
-                <textarea class="ui-textarea" @bind="Model.Content" placeholder="Write here..."></textarea>
+                <textarea id="markdown-editor" class="ui-textarea" @bind="Model.Content" placeholder="Write here..."></textarea>
             </div>
 
             <div class="pane">

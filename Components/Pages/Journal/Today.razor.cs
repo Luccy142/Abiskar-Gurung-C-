@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components;
 using JournalApp.Models.Entities;
 using JournalApp.Services.Interfaces;
+using Microsoft.JSInterop;
 
 namespace JournalApp.Components.Pages.Journal
 {
@@ -18,14 +19,11 @@ namespace JournalApp.Components.Pages.Journal
             !string.IsNullOrWhiteSpace(Model.Title) &&
             !string.IsNullOrWhiteSpace(Model.Content);
 
-        protected void InsertMarkdown(string snippet)
+        [Inject] public IJSRuntime JS { get; set; } = default!;
+
+        protected async Task InsertMarkdownAsync(string prefix, string suffix = "")
         {
-            Model.Content ??= string.Empty;
-
-            if (!string.IsNullOrWhiteSpace(Model.Content))
-                Model.Content += "\n";
-
-            Model.Content += snippet;
+            await JS.InvokeVoidAsync("window.editorHelper.wrapSelection", "markdown-editor", prefix, suffix);
         }
 
         protected override void OnInitialized()
