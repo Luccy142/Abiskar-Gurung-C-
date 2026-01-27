@@ -485,7 +485,7 @@
             <div class="checks">
                 @foreach (var mood in Enum.GetValues(typeof(JournalApp.Models.Enums.MoodType)))
                 {
-                    var moodText = mood.ToString();
+                    var moodText = mood.ToString()!;
 
                     <label class="check">
                         <input type="checkbox"

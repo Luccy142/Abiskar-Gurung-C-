@@ -23,6 +23,13 @@ namespace JournalApp.Repositories.Implementations
                             .FirstOrDefaultAsync();
         }
 
+        public async Task<JournalEntry?> GetByIdAsync(int id)
+        {
+            return await _db.Table<JournalEntry>()
+                            .Where(e => e.Id == id)
+                            .FirstOrDefaultAsync();
+        }
+
         public async Task<int> SaveAsync(JournalEntry entry)
         {
             if (entry.Id == 0)
