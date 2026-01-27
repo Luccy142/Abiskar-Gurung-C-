@@ -1,9 +1,10 @@
-﻿namespace JournalApp;
-
-public partial class MainPage : ContentPage
+﻿namespace MyJornal
 {
-	public MainPage()
-	{
-		InitializeComponent();
-	}
+    public partial class MainPage : ContentPage
+    {
+        public MainPage()
+        {
+            InitializeComponent();
+        }
+    }
 }

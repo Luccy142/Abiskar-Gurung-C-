@@ -1,0 +1,22 @@
+﻿@namespace JournalApp.Components.Journal.Components
+
+
+@using Microsoft.AspNetCore.Components
+
+<div style="margin-bottom: 10px;">
+    <label><b>Tags (comma separated)</b></label><br />
+    <input style="width:100%;" value="@TagsText" @oninput="OnInputChanged" placeholder="Work, Health, Travel..." />
+</div>
+
+@code {
+    [Parameter] public string? Value { get; set; }
+    [Parameter] public EventCallback<string?> ValueChanged { get; set; }
+
+    private string TagsText => Value ?? string.Empty;
+
+    private async Task OnInputChanged(ChangeEventArgs e)
+    {
+        var text = e.Value?.ToString();
+        await ValueChanged.InvokeAsync(text);
+    }
+}

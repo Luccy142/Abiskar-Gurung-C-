@@ -1,0 +1,336 @@
+﻿@namespace JournalApp.Components.Pages.Journal
+@page "/calendar"
+
+<style>
+    :root {
+        --r-xl: 22px;
+        --r-lg: 18px;
+        --r-md: 14px;
+    }
+
+    .cal {
+        min-height: 100vh;
+        padding: 18px;
+        border-radius: var(--r-xl);
+        border: 1px solid var(--border);
+        background: radial-gradient(900px 500px at 12% 8%, rgba(37,99,235,.14), transparent), radial-gradient(900px 500px at 88% 18%, rgba(6,182,212,.12), transparent), radial-gradient(900px 500px at 50% 95%, rgba(99,102,241,.10), transparent), var(--bg);
+        box-shadow: 0 18px 50px rgba(2,6,23,.06);
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        color: var(--text);
+    }
+
+    .cal-shell {
+        max-width: 1150px;
+        margin: 0 auto;
+        background: var(--surface);
+        border-radius: var(--r-xl);
+        border: 1px solid var(--border);
+        padding: 16px;
+        box-shadow: 0 18px 50px rgba(2,6,23,.08);
+        backdrop-filter: blur(10px);
+    }
+
+    /* HEADER */
+    .cal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 14px;
+        flex-wrap: wrap;
+        padding: 6px 4px 2px;
+        margin-bottom: 12px;
+    }
+
+    .cal-titlewrap {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+    }
+
+    .cal-badge {
+        width: 52px;
+        height: 52px;
+        border-radius: 18px;
+        background: linear-gradient(135deg, var(--accent), var(--accent2));
+        box-shadow: 0 16px 40px rgba(37,99,235,.22);
+        display: grid;
+        place-items: center;
+        color: white;
+        flex: 0 0 auto;
+    }
+
+    .ico {
+        width: 22px;
+        height: 22px;
+    }
+
+    .cal-title {
+        margin: 0;
+        font-size: 1.55rem;
+        font-weight: 950;
+        letter-spacing: .2px;
+    }
+
+    .cal-subtitle {
+        margin: 4px 0 0;
+        font-size: .92rem;
+        color: var(--muted);
+        font-weight: 650;
+    }
+
+    /* NAV */
+    .cal-nav {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .ui-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid var(--border);
+        background: var(--surface);
+        border-radius: 14px;
+        padding: 10px 14px;
+        cursor: pointer;
+        min-height: 44px;
+        font-weight: 900;
+        color: var(--text);
+        box-shadow: 0 10px 22px rgba(2,6,23,.06);
+        transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+        white-space: nowrap;
+    }
+
+        .ui-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 16px 44px rgba(2,6,23,.10);
+            background: var(--surface);
+        }
+
+        .ui-btn.primary {
+            border: none;
+            color: white;
+            background: linear-gradient(135deg, var(--accent), var(--accent2));
+            box-shadow: 0 18px 44px rgba(37,99,235,.22);
+        }
+
+    .month-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: var(--surface);
+        font-weight: 950;
+        letter-spacing: .2px;
+        color: var(--text);
+        box-shadow: 0 10px 22px rgba(2,6,23,.05);
+        white-space: nowrap;
+    }
+
+    /* CALENDAR CARD */
+    .cal-card {
+        background: var(--surface);
+        border-radius: var(--r-xl);
+        padding: 14px;
+        border: 1px solid var(--border);
+        box-shadow: 0 14px 40px rgba(2,6,23,.06);
+    }
+
+    .cal-weekdays {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        margin-bottom: 10px;
+    }
+
+    .wd {
+        text-align: center;
+        font-size: .75rem;
+        font-weight: 950;
+        color: var(--muted);
+        padding: 8px 0;
+        text-transform: uppercase;
+        letter-spacing: .08em;
+    }
+
+    .cal-grid {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 10px;
+    }
+
+    /* DAY CELL */
+    .day {
+        background: var(--surface);
+        border-radius: 18px;
+        padding: 10px;
+        min-height: 96px;
+        border: 1px solid var(--border);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease, background .18s ease;
+        position: relative;
+        box-shadow: 0 10px 24px rgba(2,6,23,.05);
+    }
+
+        .day:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 18px 50px rgba(2,6,23,.10);
+            border-color: rgba(37,99,235,.25);
+            background: var(--surface);
+        }
+
+        .day.muted {
+            opacity: .45;
+            filter: grayscale(20%);
+        }
+
+        .day.today {
+            border-color: var(--today);
+            box-shadow: 0 0 0 4px rgba(247, 159, 11, .2), 0 18px 50px rgba(2,6,23,.10);
+        }
+
+    .day-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .day-num {
+        width: 34px;
+        height: 34px;
+        border-radius: 14px;
+        display: grid;
+        place-items: center;
+        font-size: .95rem;
+        font-weight: 950;
+        color: var(--text);
+        background: rgba(37,99,235,.08);
+        border: 1px solid rgba(37,99,235,.12);
+    }
+
+    .open-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-size: .78rem;
+        padding: 8px 10px;
+        border-radius: 999px;
+        background: rgba(29,209,161,.1);
+        border: 1px solid rgba(29,209,161,.3);
+        color: var(--good);
+        cursor: pointer;
+        font-weight: 950;
+        transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
+        box-shadow: 0 10px 22px rgba(2,6,23,.05);
+        white-space: nowrap;
+    }
+
+        .open-pill:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 16px 44px rgba(2,6,23,.10);
+            filter: brightness(1.03);
+        }
+
+    .day-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .today-pill {
+        font-size: .72rem;
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: rgba(247,159,11,.14);
+        border: 1px solid rgba(247,159,11,.25);
+        color: var(--today);
+        font-weight: 950;
+        white-space: nowrap;
+    }
+
+    .entry-dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, var(--accent), var(--accent2));
+        box-shadow: 0 0 14px rgba(6,182,212,.35);
+    }
+</style>
+
+<div class="cal">
+    <div class="cal-shell">
+
+        <header class="cal-header">
+            <div class="cal-titlewrap">
+                <div class="cal-badge">
+                    <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="4" width="18" height="18" rx="3" />
+                        <path d="M8 2v4M16 2v4M3 10h18" />
+                    </svg>
+                </div>
+                <div>
+                    <h2 class="cal-title">Journal Calendar</h2>
+                    <p class="cal-subtitle">Click “Open” on days that have entries.</p>
+                </div>
+            </div>
+
+            <div class="cal-nav">
+                <button class="ui-btn" @onclick="PrevMonth" type="button">⬅️ Prev</button>
+                <span class="month-pill">📅 @CurrentMonth.ToString("MMMM yyyy")</span>
+                <button class="ui-btn primary" @onclick="NextMonth" type="button">Next ➡️</button>
+            </div>
+        </header>
+
+        @{
+            var firstDay = new DateTime(CurrentMonth.Year, CurrentMonth.Month, 1);
+            var startDay = firstDay.AddDays(-(int)firstDay.DayOfWeek);
+            var days = Enumerable.Range(0, 42).Select(i => startDay.AddDays(i)).ToList();
+        }
+
+        <div class="cal-card">
+            <div class="cal-weekdays">
+                <div class="wd">Sun</div><div class="wd">Mon</div><div class="wd">Tue</div>
+                <div class="wd">Wed</div><div class="wd">Thu</div><div class="wd">Fri</div><div class="wd">Sat</div>
+            </div>
+
+            <div class="cal-grid">
+                @foreach (var day in days)
+                {
+                    var isCurrentMonth = day.Month == CurrentMonth.Month;
+                    var hasEntry = EntryDates.Contains(day.Date);
+                    var isToday = day.Date == DateTime.Today;
+
+                    <div class="day @(isCurrentMonth ? "" : "muted") @(isToday ? "today" : "")">
+                        <div class="day-top">
+                            <div class="day-num">@day.Day</div>
+
+                            @if (hasEntry)
+                            {
+                                <button class="open-pill" @onclick="() => OpenDay(day)" type="button">📖 Open</button>
+                            }
+                        </div>
+
+                        <div class="day-bottom">
+                            @if (isToday)
+                            {
+                                <span class="today-pill">⭐ Today</span>
+                            }
+                            @if (hasEntry)
+                            {
+                                <span class="entry-dot" title="Entry exists"></span>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+    </div>
+</div>

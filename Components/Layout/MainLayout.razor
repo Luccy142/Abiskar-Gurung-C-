@@ -1,17 +1,63 @@
-﻿@inherits LayoutComponentBase
+@namespace JournalApp.Components.Layout
+@using JournalApp.Services.Interfaces
+@using Microsoft.JSInterop
+@inherits LayoutComponentBase
+@implements IDisposable
+@inject IThemeService ThemeService
+@inject IJSRuntime JSRuntime
 
-<div class="page">
-    <div class="sidebar">
+<div class="app-shell">
+    <aside class="sidebar">
         <NavMenu />
-    </div>
+    </aside>
 
-    <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-        </div>
-
-        <article class="content px-4">
-            @Body
-        </article>
+    <main class="main">
+        @Body
     </main>
 </div>
+
+<style>
+    .app-shell {
+        display: flex;
+        min-height: 100vh;
+    }
+
+    .sidebar {
+        width: 320px;
+        flex: 0 0 320px;
+    }
+
+    .main {
+        flex: 1;
+        min-width: 0;
+    }
+</style>
+
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            ThemeService.ThemeChanged += HandleThemeChanged;
+            await ApplyThemeAsync(ThemeService.GetTheme());
+        }
+
+        await base.OnAfterRenderAsync(firstRender);
+    }
+
+    private async Task ApplyThemeAsync(string theme)
+    {
+        var normalized = theme == "dark" ? "dark" : "light";
+        await JSRuntime.InvokeVoidAsync("themeHelper.setTheme", normalized);
+    }
+
+    private async void HandleThemeChanged(string theme)
+    {
+        await InvokeAsync(() => ApplyThemeAsync(theme));
+    }
+
+    public void Dispose()
+    {
+        ThemeService.ThemeChanged -= HandleThemeChanged;
+    }
+}

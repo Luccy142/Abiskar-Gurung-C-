@@ -1,26 +1,53 @@
 ﻿using Microsoft.Extensions.Logging;
+using JournalApp.Data.Database;
+using JournalApp.Services.Implementations;
+using JournalApp.Repositories.Interfaces;
+using JournalApp.Repositories.Implementations;
+using JournalApp.Services.Interfaces;
 
-namespace JournalApp;
 
-public static class MauiProgram
+namespace MyJornal
 {
-	public static MauiApp CreateMauiApp()
-	{
-		var builder = MauiApp.CreateBuilder();
-		builder
-			.UseMauiApp<App>()
-			.ConfigureFonts(fonts =>
-			{
-				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-			});
+    public static class MauiProgram
+    {
+        public static MauiApp CreateMauiApp()
+        {
+            var builder = MauiApp.CreateBuilder();
+            builder
+                .UseMauiApp<App>()
+                .ConfigureFonts(fonts =>
+                {
+                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+                });
 
-		builder.Services.AddMauiBlazorWebView();
+            builder.Services.AddMauiBlazorWebView();
+            builder.Services.AddSingleton<DatabasePathService>();
+
+            builder.Services.AddSingleton<AppDatabase>(sp =>
+            {
+                var pathService = sp.GetRequiredService<DatabasePathService>();
+                var dbPath = pathService.GetDatabasePath();
+                return new AppDatabase(dbPath);
+            });
+            builder.Services.AddSingleton<IJournalEntryRepository, JournalEntryRepository>();
+            builder.Services.AddSingleton<IJournalEntryService, JournalEntryService>();
+            builder.Services.AddSingleton<IStreakService, StreakService>();
+            builder.Services.AddSingleton<IThemeService, ThemeService>();
+            builder.Services.AddSingleton<IAuthService, AuthService>();
+            builder.Services.AddSingleton<SessionService>();
+            builder.Services.AddSingleton<IPdfExportService, PdfExportService>();
+            builder.Services.AddSingleton<IAnalyticsService, AnalyticsService>();
+
+
 
 #if DEBUG
-		builder.Services.AddBlazorWebViewDeveloperTools();
-		builder.Logging.AddDebug();
+            builder.Services.AddBlazorWebViewDeveloperTools();
+    		builder.Logging.AddDebug();
 #endif
 
-		return builder.Build();
-	}
+            var app = builder.Build();
+            app.Services.GetRequiredService<IThemeService>().ApplyStoredTheme();
+            return app;
+        }
+    }
 }

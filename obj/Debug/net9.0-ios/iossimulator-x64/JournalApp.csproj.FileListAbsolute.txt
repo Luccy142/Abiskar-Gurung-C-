@@ -1,0 +1,735 @@
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\JournalApp.staticwebassets.endpoints.json
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\JournalApp.runtimeconfig.json
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\JournalApp.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\JournalApp.pdb
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.AspNetCore.Authorization.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.AspNetCore.Components.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.AspNetCore.Components.WebView.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.AspNetCore.Components.WebView.Maui.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.AspNetCore.Metadata.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.FileProviders.Composite.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Logging.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Options.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Primitives.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.JSInterop.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Maui.Controls.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Maui.Controls.Xaml.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Maui.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Maui.Essentials.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Maui.Graphics.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\PdfSharpCore.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\ICSharpCode.SharpZipLib.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\SixLabors.Fonts.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\SixLabors.ImageSharp.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\SQLite-net.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\SQLitePCLRaw.batteries_v2.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\SQLitePCLRaw.core.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\SQLitePCLRaw.provider.sqlite3.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\ar\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\ca\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\cs\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\da\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\de\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\el\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\es\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\fi\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\fr\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\he\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\hi\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\hr\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\hu\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\id\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\it\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\ja\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\ko\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\ms\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\nb\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\nl\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\pl\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\pt-BR\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\pt\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\ro\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\ru\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\sk\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\sv\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\th\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\tr\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\uk\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\vi\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\zh-HK\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\zh-Hans\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\zh-Hant\Microsoft.Maui.Controls.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\de\PdfSharpCore.resources.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.CSharp.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.VisualBasic.Core.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.VisualBasic.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Win32.Primitives.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Win32.Registry.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.AppContext.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Buffers.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Collections.Concurrent.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Collections.Immutable.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Collections.NonGeneric.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Collections.Specialized.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Collections.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.ComponentModel.Annotations.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.ComponentModel.DataAnnotations.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.ComponentModel.EventBasedAsync.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.ComponentModel.Primitives.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.ComponentModel.TypeConverter.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.ComponentModel.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Configuration.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Console.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Core.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Data.Common.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Data.DataSetExtensions.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Data.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Diagnostics.Contracts.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Diagnostics.Debug.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Diagnostics.DiagnosticSource.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Diagnostics.FileVersionInfo.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Diagnostics.Process.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Diagnostics.StackTrace.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Diagnostics.Tools.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Diagnostics.TraceSource.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Diagnostics.Tracing.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Drawing.Primitives.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Drawing.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Dynamic.Runtime.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Formats.Asn1.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Formats.Tar.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Globalization.Calendars.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Globalization.Extensions.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Globalization.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.Compression.Brotli.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.Compression.FileSystem.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.Compression.ZipFile.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.Compression.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.FileSystem.AccessControl.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.FileSystem.DriveInfo.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.FileSystem.Primitives.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.FileSystem.Watcher.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.FileSystem.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.IsolatedStorage.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.MemoryMappedFiles.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.Pipelines.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.Pipes.AccessControl.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.Pipes.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.UnmanagedMemoryStream.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Linq.Expressions.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Linq.Parallel.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Linq.Queryable.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Linq.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Memory.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.Http.Json.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.Http.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.HttpListener.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.Mail.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.NameResolution.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.NetworkInformation.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.Ping.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.Primitives.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.Quic.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.Requests.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.Security.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.ServicePoint.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.Sockets.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.WebClient.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.WebHeaderCollection.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.WebProxy.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.WebSockets.Client.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.WebSockets.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Numerics.Vectors.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Numerics.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.ObjectModel.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Private.DataContractSerialization.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Private.Uri.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Private.Xml.Linq.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Private.Xml.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Reflection.DispatchProxy.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Reflection.Emit.ILGeneration.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Reflection.Emit.Lightweight.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Reflection.Emit.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Reflection.Extensions.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Reflection.Metadata.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Reflection.Primitives.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Reflection.TypeExtensions.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Reflection.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Resources.Reader.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Resources.ResourceManager.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Resources.Writer.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.Extensions.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.Handles.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.InteropServices.JavaScript.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.InteropServices.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.Intrinsics.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.Loader.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.Numerics.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.Serialization.Formatters.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.Serialization.Json.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.Serialization.Primitives.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.Serialization.Xml.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.Serialization.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.AccessControl.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.Claims.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.Cryptography.Algorithms.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.Cryptography.Cng.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.Cryptography.Csp.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.Cryptography.Encoding.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.Cryptography.OpenSsl.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.Cryptography.Primitives.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.Cryptography.X509Certificates.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.Cryptography.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.Principal.Windows.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.Principal.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.SecureString.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.ServiceModel.Web.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.ServiceProcess.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Text.Encoding.CodePages.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Text.Encoding.Extensions.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Text.Encoding.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Text.Encodings.Web.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Text.Json.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Text.RegularExpressions.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Threading.Channels.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Threading.Overlapped.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Threading.Tasks.Dataflow.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Threading.Tasks.Extensions.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Threading.Tasks.Parallel.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Threading.Tasks.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Threading.Thread.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Threading.ThreadPool.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Threading.Timer.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Threading.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Transactions.Local.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Transactions.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.ValueTuple.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Web.HttpUtility.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Web.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Windows.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Xml.Linq.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Xml.ReaderWriter.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Xml.Serialization.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Xml.XDocument.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Xml.XPath.XDocument.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Xml.XPath.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Xml.XmlDocument.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Xml.XmlSerializer.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Xml.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\WindowsBase.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\mscorlib.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\netstandard.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.iOS.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Private.CoreLib.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libSystem.Globalization.Native.a
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libSystem.Globalization.Native.dylib
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libSystem.IO.Compression.Native.a
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libSystem.IO.Compression.Native.dylib
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libSystem.Native.a
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libSystem.Native.dylib
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libSystem.Net.Security.Native.a
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libSystem.Net.Security.Native.dylib
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libSystem.Security.Cryptography.Native.Apple.a
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libSystem.Security.Cryptography.Native.Apple.dylib
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-debugger-static.a
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-debugger-stub-static.a
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-debugger.dylib
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-diagnostics_tracing-static.a
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-diagnostics_tracing-stub-static.a
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-diagnostics_tracing.dylib
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-hot_reload-static.a
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-hot_reload-stub-static.a
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-hot_reload.dylib
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-marshal-ilgen-static.a
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-marshal-ilgen-stub-static.a
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-marshal-ilgen.dylib
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmonosgen-2.0.a
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmonosgen-2.0.dylib
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.iOS.registrar.a
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libextension-dotnet.a
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libxamarin-dotnet-debug.a
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libxamarin-dotnet-debug.dylib
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libxamarin-dotnet-nativeaot-debug.a
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libxamarin-dotnet-nativeaot.a
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libxamarin-dotnet.a
+C:\Users\abish\source\repos\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\JournalApp.csproj.AssemblyReference.cache
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\rpswa.dswa.cache.json
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\rjimswa.dswa.cache.json
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\rjsmrazor.dswa.cache.json
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\rjsmcshtml.dswa.cache.json
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\scopedcss\bundle\JournalApp.styles.css
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\scopedcss\projectbundle\JournalApp.bundle.scp.css
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\nh6tx9hl0a-{0}-0lwl202m40-0lwl202m40.gz
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\4tap0z19of-{0}-6gzpyzhau4-6gzpyzhau4.gz
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\tcs5z7xan4-{0}-8inm30yfxf-8inm30yfxf.gz
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\zydvgz37vo-{0}-skdb0ebxpr-skdb0ebxpr.gz
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\gljo1elgpk-{0}-9oo9u7z4q7-9oo9u7z4q7.gz
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\hjg6b1qhgb-{0}-9oo9u7z4q7-9oo9u7z4q7.gz
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets.build.json
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets.build.json.cache
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets.development.json
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets.build.endpoints.json
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\swae.build.ex.cache
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets\msbuild.JournalApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets\msbuild.JournalApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets\msbuild.build.JournalApp.props
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets\msbuild.buildMultiTargeting.JournalApp.props
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets\msbuild.buildTransitive.JournalApp.props
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets.pack.json
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\publish\nh6tx9hl0a-{0}-0lwl202m40-0lwl202m40.br
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\publish\4tap0z19of-{0}-6gzpyzhau4-6gzpyzhau4.br
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\publish\tcs5z7xan4-{0}-8inm30yfxf-8inm30yfxf.br
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\publish\zydvgz37vo-{0}-skdb0ebxpr-skdb0ebxpr.br
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\publish\gljo1elgpk-{0}-9oo9u7z4q7-9oo9u7z4q7.br
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\publish\hjg6b1qhgb-{0}-9oo9u7z4q7-9oo9u7z4q7.br
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets.publish.json
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets.publish.endpoints.json
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\swae.publish.ex.cache
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\mauiimage.inputs
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\mauifont.inputs
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\mauisplash.inputs
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\sp\MauiInfo.plist
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\sp\MauiSplash.storyboard
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449.png
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@2x.png
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@3x.png
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\mauisplash.stamp
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@3x.png
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@2x.png
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot.png
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@3x.png
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@2x.png
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@3x.png
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@2x.png
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@3x.png
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@2x.png
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\mauiimage.stamp
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\mauiimage.outputs
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\MauiInfo.plist
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\mauifont.stamp
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Regular.ttf
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\actool\_PartialAppManifest.items
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\actool\_BundleResourceWithLogicalName.items
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\actool\_ProcessedImageAssetsPath.items
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\ibtool\_ProcessedInterfaceDefinitionsPath.items
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\copySceneKitAssets\_ProcessedSceneKitAssetsPath.items
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\collada\_ProcessedColladaAssetsPath.items
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\atlas\_ProcessedTextureAtlasesPath.items
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\coremlc\_PartialAppManifest.items
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\_ProcessedBundleResourcesPath.items
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\_ProcessedContentPath.items
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\JournalApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\JournalApp.AssemblyInfoInputs.cache
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\JournalApp.AssemblyInfo.cs
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\JournalApp.csproj.CoreCompileInputs.cache
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\JournalApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\JournalApp.sourcelink.json
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\XamlC.stamp
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\JournalApp.csproj.Up2Date
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\JournalApp.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\refint\JournalApp.dll
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\JournalApp.pdb
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\JournalApp.genruntimeconfig.cache
+C:\Users\abish\source\repos\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\ref\JournalApp.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\JournalApp.csproj.AssemblyReference.cache
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\rpswa.dswa.cache.json
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\rjimswa.dswa.cache.json
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\rjsmrazor.dswa.cache.json
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\rjsmcshtml.dswa.cache.json
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\scopedcss\bundle\JournalApp.styles.css
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\scopedcss\projectbundle\JournalApp.bundle.scp.css
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\4tap0z19of-{0}-6gzpyzhau4-6gzpyzhau4.gz
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\tcs5z7xan4-{0}-8inm30yfxf-8inm30yfxf.gz
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\zydvgz37vo-{0}-7bxl1735on-7bxl1735on.gz
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\gljo1elgpk-{0}-9oo9u7z4q7-9oo9u7z4q7.gz
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\hjg6b1qhgb-{0}-9oo9u7z4q7-9oo9u7z4q7.gz
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets.build.json
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets.build.json.cache
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets.development.json
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets.build.endpoints.json
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\swae.build.ex.cache
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets\msbuild.JournalApp.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets\msbuild.JournalApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets\msbuild.build.JournalApp.props
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets\msbuild.buildMultiTargeting.JournalApp.props
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets\msbuild.buildTransitive.JournalApp.props
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets.pack.json
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\publish\4tap0z19of-{0}-6gzpyzhau4-6gzpyzhau4.br
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\publish\tcs5z7xan4-{0}-8inm30yfxf-8inm30yfxf.br
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\publish\zydvgz37vo-{0}-7bxl1735on-7bxl1735on.br
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\publish\gljo1elgpk-{0}-9oo9u7z4q7-9oo9u7z4q7.br
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\publish\hjg6b1qhgb-{0}-9oo9u7z4q7-9oo9u7z4q7.br
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets.publish.json
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\staticwebassets.publish.endpoints.json
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\swae.publish.ex.cache
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\mauiimage.inputs
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\mauifont.inputs
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\mauisplash.inputs
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\sp\MauiInfo.plist
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\sp\MauiSplash.storyboard
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449.png
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@2x.png
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@3x.png
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\mauisplash.stamp
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@2x.png
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@3x.png
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@2x.png
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@3x.png
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@2x.png
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@3x.png
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot.png
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@2x.png
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@3x.png
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\mauiimage.stamp
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\mauiimage.outputs
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\MauiInfo.plist
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\mauifont.stamp
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Regular.ttf
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\actool\_PartialAppManifest.items
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\actool\_BundleResourceWithLogicalName.items
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\actool\_ProcessedImageAssetsPath.items
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\ibtool\_BundleResourceWithLogicalName.items
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\ibtool\_ProcessedInterfaceDefinitionsPath.items
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\copySceneKitAssets\_ProcessedSceneKitAssetsPath.items
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\collada\_ProcessedColladaAssetsPath.items
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\atlas\_ProcessedTextureAtlasesPath.items
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\coremlc\_PartialAppManifest.items
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\coremlc\_BundleResourceWithLogicalName.items
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\_ProcessedBundleResourcesPath.items
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\_ProcessedContentPath.items
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\JournalApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\JournalApp.AssemblyInfoInputs.cache
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\JournalApp.AssemblyInfo.cs
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\JournalApp.csproj.CoreCompileInputs.cache
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\JournalApp.MvcApplicationPartsAssemblyInfo.cache
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\JournalApp.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\refint\JournalApp.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\JournalApp.pdb
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\JournalApp.staticwebassets.endpoints.json
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\JournalApp.runtimeconfig.json
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\JournalApp.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\JournalApp.pdb
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.AspNetCore.Authorization.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.AspNetCore.Components.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.AspNetCore.Components.Forms.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.AspNetCore.Components.Web.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.AspNetCore.Components.WebView.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.AspNetCore.Components.WebView.Maui.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.AspNetCore.Metadata.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.Binder.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.Json.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.DependencyInjection.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.FileProviders.Composite.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.FileProviders.Physical.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Logging.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Logging.Debug.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Options.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Primitives.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.JSInterop.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Maui.Controls.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Maui.Controls.Xaml.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Maui.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Maui.Essentials.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Maui.Graphics.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\PdfSharpCore.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\ICSharpCode.SharpZipLib.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\SixLabors.Fonts.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\SixLabors.ImageSharp.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\SQLite-net.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\SQLitePCLRaw.batteries_v2.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\SQLitePCLRaw.core.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\SQLitePCLRaw.provider.sqlite3.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\ar\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\ca\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\cs\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\da\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\de\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\el\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\es\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\fi\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\fr\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\he\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\hi\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\hr\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\hu\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\id\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\it\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\ja\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\ko\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\ms\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\nb\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\nl\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\pl\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\pt-BR\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\pt\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\ro\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\ru\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\sk\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\sv\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\th\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\tr\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\uk\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\vi\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\zh-HK\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\zh-Hans\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\zh-Hant\Microsoft.Maui.Controls.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\de\PdfSharpCore.resources.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.CSharp.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.VisualBasic.Core.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.VisualBasic.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Win32.Primitives.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Win32.Registry.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.AppContext.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Buffers.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Collections.Concurrent.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Collections.Immutable.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Collections.NonGeneric.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Collections.Specialized.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Collections.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.ComponentModel.Annotations.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.ComponentModel.DataAnnotations.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.ComponentModel.EventBasedAsync.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.ComponentModel.Primitives.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.ComponentModel.TypeConverter.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.ComponentModel.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Configuration.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Console.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Core.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Data.Common.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Data.DataSetExtensions.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Data.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Diagnostics.Contracts.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Diagnostics.Debug.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Diagnostics.DiagnosticSource.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Diagnostics.FileVersionInfo.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Diagnostics.Process.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Diagnostics.StackTrace.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Diagnostics.TextWriterTraceListener.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Diagnostics.Tools.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Diagnostics.TraceSource.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Diagnostics.Tracing.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Drawing.Primitives.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Drawing.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Dynamic.Runtime.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Formats.Asn1.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Formats.Tar.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Globalization.Calendars.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Globalization.Extensions.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Globalization.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.Compression.Brotli.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.Compression.FileSystem.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.Compression.ZipFile.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.Compression.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.FileSystem.AccessControl.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.FileSystem.DriveInfo.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.FileSystem.Primitives.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.FileSystem.Watcher.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.FileSystem.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.IsolatedStorage.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.MemoryMappedFiles.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.Pipelines.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.Pipes.AccessControl.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.Pipes.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.UnmanagedMemoryStream.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.IO.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Linq.Expressions.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Linq.Parallel.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Linq.Queryable.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Linq.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Memory.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.Http.Json.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.Http.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.HttpListener.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.Mail.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.NameResolution.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.NetworkInformation.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.Ping.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.Primitives.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.Quic.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.Requests.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.Security.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.ServicePoint.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.Sockets.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.WebClient.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.WebHeaderCollection.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.WebProxy.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.WebSockets.Client.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.WebSockets.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Net.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Numerics.Vectors.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Numerics.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.ObjectModel.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Private.DataContractSerialization.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Private.Uri.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Private.Xml.Linq.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Private.Xml.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Reflection.DispatchProxy.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Reflection.Emit.ILGeneration.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Reflection.Emit.Lightweight.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Reflection.Emit.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Reflection.Extensions.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Reflection.Metadata.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Reflection.Primitives.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Reflection.TypeExtensions.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Reflection.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Resources.Reader.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Resources.ResourceManager.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Resources.Writer.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.CompilerServices.Unsafe.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.CompilerServices.VisualC.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.Extensions.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.Handles.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.InteropServices.JavaScript.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.InteropServices.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.Intrinsics.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.Loader.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.Numerics.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.Serialization.Formatters.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.Serialization.Json.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.Serialization.Primitives.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.Serialization.Xml.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.Serialization.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Runtime.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.AccessControl.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.Claims.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.Cryptography.Algorithms.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.Cryptography.Cng.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.Cryptography.Csp.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.Cryptography.Encoding.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.Cryptography.OpenSsl.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.Cryptography.Primitives.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.Cryptography.X509Certificates.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.Cryptography.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.Principal.Windows.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.Principal.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.SecureString.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Security.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.ServiceModel.Web.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.ServiceProcess.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Text.Encoding.CodePages.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Text.Encoding.Extensions.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Text.Encoding.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Text.Encodings.Web.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Text.Json.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Text.RegularExpressions.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Threading.Channels.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Threading.Overlapped.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Threading.Tasks.Dataflow.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Threading.Tasks.Extensions.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Threading.Tasks.Parallel.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Threading.Tasks.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Threading.Thread.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Threading.ThreadPool.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Threading.Timer.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Threading.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Transactions.Local.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Transactions.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.ValueTuple.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Web.HttpUtility.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Web.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Windows.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Xml.Linq.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Xml.ReaderWriter.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Xml.Serialization.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Xml.XDocument.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Xml.XPath.XDocument.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Xml.XPath.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Xml.XmlDocument.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Xml.XmlSerializer.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Xml.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\WindowsBase.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\mscorlib.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\netstandard.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.iOS.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\System.Private.CoreLib.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libSystem.Globalization.Native.a
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libSystem.Globalization.Native.dylib
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libSystem.IO.Compression.Native.a
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libSystem.IO.Compression.Native.dylib
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libSystem.Native.a
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libSystem.Native.dylib
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libSystem.Net.Security.Native.a
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libSystem.Net.Security.Native.dylib
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libSystem.Security.Cryptography.Native.Apple.a
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libSystem.Security.Cryptography.Native.Apple.dylib
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-debugger-static.a
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-debugger-stub-static.a
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-debugger.dylib
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-diagnostics_tracing-static.a
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-diagnostics_tracing-stub-static.a
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-diagnostics_tracing.dylib
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-hot_reload-static.a
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-hot_reload-stub-static.a
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-hot_reload.dylib
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-marshal-ilgen-static.a
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-marshal-ilgen-stub-static.a
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmono-component-marshal-ilgen.dylib
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmonosgen-2.0.a
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libmonosgen-2.0.dylib
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.iOS.registrar.a
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libextension-dotnet.a
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libxamarin-dotnet-debug.a
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libxamarin-dotnet-debug.dylib
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libxamarin-dotnet-nativeaot-debug.a
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libxamarin-dotnet-nativeaot.a
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libxamarin-dotnet.a
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\bin\Debug\net9.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\XamlC.stamp
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\JournalApp.csproj.Up2Date
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\JournalApp.genruntimeconfig.cache
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\ref\JournalApp.dll
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\nh6tx9hl0a-{0}-obi2mdn3n8-obi2mdn3n8.gz
+E:\Fyp\1st\Log book 1\rohina\C#\MyJornal\MyJornal\MyJornal\obj\Debug\net9.0-ios\iossimulator-x64\compressed\publish\nh6tx9hl0a-{0}-obi2mdn3n8-obi2mdn3n8.br

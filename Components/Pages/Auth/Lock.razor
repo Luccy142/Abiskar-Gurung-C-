@@ -1,0 +1,95 @@
+﻿@namespace JournalApp.Components.Pages.Auth
+@page "/lock"
+@inject JournalApp.Services.Interfaces.IAuthService AuthService
+@inject NavigationManager Nav
+@inject JournalApp.Services.Implementations.SessionService Session
+
+<h3>Journal Lock</h3>
+
+<div style="max-width: 420px;">
+    @if (!IsReady)
+    {
+        <p>Loading...</p>
+    }
+    else if (!PinIsSet)
+    {
+        <p><b>Set a PIN</b> (4 to 8 digits)</p>
+
+        <input style="width:100%;" placeholder="Enter new PIN" type="password" @bind="Pin" />
+        <input style="width:100%; margin-top:8px;" placeholder="Confirm PIN" type="password" @bind="ConfirmPin" />
+
+        <div style="margin-top: 12px;">
+            <button @onclick="SetPinAsync">Save PIN</button>
+        </div>
+    }
+    else
+    {
+        <p><b>Enter PIN</b></p>
+
+        <input style="width:100%;" placeholder="PIN" type="password" @bind="Pin" />
+
+        <div style="margin-top: 12px;">
+            <button @onclick="UnlockAsync">Unlock</button>
+        </div>
+    }
+
+    @if (!string.IsNullOrWhiteSpace(Message))
+    {
+        <p style="margin-top:10px;">@Message</p>
+    }
+</div>
+
+@code {
+    private bool IsReady;
+    private bool PinIsSet;
+
+    private string Pin = string.Empty;
+    private string ConfirmPin = string.Empty;
+    private string Message = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        PinIsSet = await AuthService.IsPinSetAsync();
+        IsReady = true;
+    }
+
+    private async Task SetPinAsync()
+    {
+        Message = string.Empty;
+
+        if (Pin != ConfirmPin)
+        {
+            Message = "PIN does not match.";
+            return;
+        }
+
+        var ok = await AuthService.SetPinAsync(Pin);
+        if (!ok)
+        {
+            Message = "PIN must be 4 to 8 digits only.";
+            return;
+        }
+
+        Message = "PIN saved. Please enter it to unlock.";
+        Pin = string.Empty;
+        ConfirmPin = string.Empty;
+
+        PinIsSet = true;
+    }
+
+    private async Task UnlockAsync()
+    {
+        Message = string.Empty;
+
+        var ok = await AuthService.VerifyPinAsync(Pin);
+        if (!ok)
+        {
+            Message = "Wrong PIN.";
+            return;
+        }
+
+        Session.IsUnlocked = true;
+        Nav.NavigateTo("/today", true);
+
+    }
+}
