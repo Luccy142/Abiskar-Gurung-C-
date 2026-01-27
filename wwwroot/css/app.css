@@ -42,6 +42,7 @@ body {
     background-size: 400px, cover, cover;
     color: var(--text);
     min-height: 100vh;
+    background-attachment: fixed;
 }
 
 table,
@@ -62,6 +63,8 @@ select {
 
 html,
 body {
+    height: 100%;
+    margin: 0;
     font-family: 'Glacial Indifference', sans-serif;
 }
 
