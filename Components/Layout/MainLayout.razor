@@ -9,28 +9,23 @@
 @inject SessionService Session
 @inject NavigationManager Nav
 
-@if (!Session.IsUnlocked && 
+@* Lock check removed *@
+@* @if (!Session.IsUnlocked && 
      !Nav.Uri.Contains("/lock", StringComparison.OrdinalIgnoreCase))
 {
-    @* Force redirect if trying to access protected content while locked *@
     <div style="display:none">@{ Nav.NavigateTo("/lock", true); }</div>
-}
+} *@
 
-@if (Session.IsUnlocked || Nav.Uri.Contains("/lock", StringComparison.OrdinalIgnoreCase))
-{
+@* Always show app shell now that lock is removed/softened *@
     <div class="app-shell">
-        @if (Session.IsUnlocked)
-        {
-            <aside class="sidebar">
-                <NavMenu />
-            </aside>
-        }
+        <aside class="sidebar">
+            <NavMenu />
+        </aside>
 
         <main class="main">
             @Body
         </main>
     </div>
-}
 
 <style>
     .app-shell {
@@ -58,10 +53,11 @@
             await ApplyThemeAsync(ThemeService.GetTheme());
 
             // Initial lock check
-            if (!Session.IsUnlocked && !Nav.Uri.Contains("/lock", StringComparison.OrdinalIgnoreCase))
-            {
-               Nav.NavigateTo("/lock", true);
-            }
+            // Lock check removed as per user request to replace PIN system with Welcome page
+            // if (!Session.IsUnlocked && !Nav.Uri.Contains("/lock", StringComparison.OrdinalIgnoreCase))
+            // {
+            //    Nav.NavigateTo("/lock", true);
+            // }
         }
 
         await base.OnAfterRenderAsync(firstRender);
