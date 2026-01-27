@@ -12,12 +12,12 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>obi2mdn3n8</Fingerprint>
-      <Integrity>vNyz9HSNKw6qK4FgHmZuf43VbIUyyc1S89G2/wqmuw4=</Integrity>
+      <Fingerprint>dmduonrxy9</Fingerprint>
+      <Integrity>i5sbULDEndeIjDJFRMHG3FmTyJtctfo/n3lG6CtbM6M=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <FileLength>15093</FileLength>
-      <LastWriteTime>Tue, 27 Jan 2026 15:33:12 GMT</LastWriteTime>
+      <FileLength>15570</FileLength>
+      <LastWriteTime>Tue, 27 Jan 2026 20:14:21 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\app.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrap\bootstrap.min.css'))">
@@ -72,12 +72,12 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7bxl1735on</Fingerprint>
-      <Integrity>HdcDDP4IcdTqaxF5T8rCmooS+5MaASL7BURzZARt4YA=</Integrity>
+      <Fingerprint>54b2diy250</Fingerprint>
+      <Integrity>Owagm+4B/dXtLhQ2UpONMbv1b4wjUqpHNlfuFaY3Pk8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <FileLength>1196</FileLength>
-      <LastWriteTime>Tue, 27 Jan 2026 15:33:12 GMT</LastWriteTime>
+      <FileLength>1540</FileLength>
+      <LastWriteTime>Tue, 27 Jan 2026 20:13:34 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\JournalApp.styles.css'))">

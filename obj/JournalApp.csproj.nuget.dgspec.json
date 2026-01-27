@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MyJornal\\MyJornal\\JournalApp.csproj": {}
+    "C:\\Users\\ASUS\\OneDrive\\Desktop\\JournalApp\\JournalApp.csproj": {}
   },
   "projects": {
-    "E:\\MyJornal\\MyJornal\\JournalApp.csproj": {
+    "C:\\Users\\ASUS\\OneDrive\\Desktop\\JournalApp\\JournalApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MyJornal\\MyJornal\\JournalApp.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JournalApp\\JournalApp.csproj",
         "projectName": "JournalApp",
-        "projectPath": "E:\\MyJornal\\MyJornal\\JournalApp.csproj",
+        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JournalApp\\JournalApp.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\MyJornal\\MyJornal\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JournalApp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

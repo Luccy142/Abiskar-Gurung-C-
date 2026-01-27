@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "E:\\MyJornal\\MyJornal\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\JournalApp.styles.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JournalApp\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\JournalApp.styles.css",
       "PackagePath": "staticwebassets\\JournalApp.styles.css"
     },
     {
-      "Id": "E:\\MyJornal\\MyJornal\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JournalApp\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "E:\\MyJornal\\MyJornal\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JournalApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\MyJornal\\MyJornal\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JournalApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\MyJornal\\MyJornal\\wwwroot\\index.html",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JournalApp\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
