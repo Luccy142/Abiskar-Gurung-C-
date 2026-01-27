@@ -2964,6 +2964,6 @@ C:\Users\ASUS\OneDrive\Desktop\JournalApp\obj\Debug\net9.0-windows10.0.19041.0\w
 C:\Users\ASUS\OneDrive\Desktop\JournalApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\ASUS\OneDrive\Desktop\JournalApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\c38mfp45ka-54b2diy250.gz
 C:\Users\ASUS\OneDrive\Desktop\JournalApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\c38mfp45ka-54b2diy250.br
-C:\Users\ASUS\OneDrive\Desktop\JournalApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\xjerm3jp46-porgfbn0gk.gz
-C:\Users\ASUS\OneDrive\Desktop\JournalApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\xjerm3jp46-porgfbn0gk.br
 C:\Users\ASUS\OneDrive\Desktop\JournalApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\img\texture.png
+C:\Users\ASUS\OneDrive\Desktop\JournalApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\xjerm3jp46-vj3sj9wo1q.gz
+C:\Users\ASUS\OneDrive\Desktop\JournalApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\xjerm3jp46-vj3sj9wo1q.br

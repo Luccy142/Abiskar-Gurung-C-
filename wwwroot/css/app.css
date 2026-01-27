@@ -635,12 +635,16 @@ h1:focus {
     display: none;
 }
 
-[data-theme="dark"] body,
+[data-theme="dark"] body {
+    background-color: var(--bg);
+    color: var(--text);
+}
+
 [data-theme="dark"] .app-shell,
 [data-theme="dark"] .page,
 [data-theme="dark"] main,
 [data-theme="dark"] .content {
-    background: var(--bg);
+    background: transparent;
     color: var(--text);
 }
 
