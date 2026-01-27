@@ -15,11 +15,15 @@
     }
 
     /* Top bar */
+    /* Top bar */
     .top-row.navbar {
-        background: linear-gradient(135deg, var(--nav-accent), var(--nav-accent2)) !important;
-        border-bottom: 1px solid rgba(255,255,255,.4);
+        background: #060710 !important; /* Project dark theme */
+        border-bottom: 1px solid rgba(255,255,255,.1);
         padding: 12px 14px;
         box-shadow: 0 8px 20px rgba(0,0,0,.12);
+        border-top-left-radius: 22px;
+        border-top-right-radius: 22px;
+        margin: 10px 10px 0; /* Add margin to separate from screen edges if needed, or keep 0 */
     }
 
     .navbar-brand {
@@ -40,8 +44,9 @@
     }
 
     /* Sidebar background */
+    /* Sidebar background */
     .nav-scrollable {
-        background: radial-gradient(900px 500px at top left, rgba(37,99,235,.12), transparent), radial-gradient(700px 500px at bottom right, rgba(6,182,212,.10), transparent), var(--nav-bg);
+        background: transparent;
         border-right: 1px solid var(--nav-border);
         padding: 16px;
         min-height: calc(100vh - 56px);
