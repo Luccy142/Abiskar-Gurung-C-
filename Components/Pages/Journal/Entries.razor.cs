@@ -138,5 +138,19 @@ namespace JournalApp.Components.Pages.Journal
         }
 
 
+    
+        [Inject] public Microsoft.JSInterop.IJSRuntime JS { get; set; } = default!;
+
+        protected async Task ConfirmDelete(JournalEntry entry)
+        {
+            bool confirmed = await JS.InvokeAsync<bool>("confirm", $"Are you sure you want to delete '{entry.Title}'?");
+            if (confirmed)
+            {
+                await Repo.DeleteAsync(entry);
+                // Refresh list
+                AllEntries = await Repo.GetAllAsync();
+                ApplyPagination();
+            }
+        }
     }
 }

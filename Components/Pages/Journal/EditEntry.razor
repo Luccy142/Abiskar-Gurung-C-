@@ -1,0 +1,487 @@
+@namespace JournalApp.Components.Pages.Journal
+@page "/entry/edit/{Id:int}"
+@using JournalApp.Components.Journal.Components
+
+<style>
+    :root {
+        --r-xl: 22px;
+        --r-lg: 18px;
+        --r-md: 14px;
+    }
+
+    .edit-page {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        padding: 18px;
+        border-radius: var(--r-xl);
+        border: 1px solid var(--border);
+        background: transparent;
+        box-shadow: 0 18px 50px rgba(2,6,23,.06);
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        color: var(--text);
+    }
+
+    /* Header */
+    .edit-head {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 14px;
+        flex-wrap: wrap;
+        padding: 6px 2px 2px;
+    }
+
+    .title-row {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+    }
+
+    .title-badge {
+        width: 52px;
+        height: 52px;
+        border-radius: 18px;
+        background: linear-gradient(135deg, var(--accent), var(--accent2));
+        box-shadow: 0 16px 40px rgba(37,99,235,.22);
+        display: grid;
+        place-items: center;
+        color: white;
+        font-size: 20px;
+        flex: 0 0 auto;
+    }
+
+    .edit-title {
+        margin: 0;
+        font-size: 1.55rem;
+        font-weight: 950;
+        letter-spacing: .2px;
+    }
+
+    .chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 12px;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: var(--surface);
+        font-size: 13px;
+        font-weight: 850;
+        box-shadow: 0 10px 22px rgba(2,6,23,.06);
+        width: fit-content;
+        white-space: nowrap;
+    }
+
+    .actions {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    /* Buttons */
+    .save-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        border: none;
+        background: linear-gradient(135deg, var(--accent), var(--accent2));
+        color: white;
+        border-radius: 14px;
+        padding: 10px 14px;
+        cursor: pointer;
+        min-height: 44px;
+        font-weight: 900;
+        box-shadow: 0 18px 44px rgba(37,99,235,.22);
+        transition: transform .18s ease, box-shadow .18s ease;
+    }
+
+        .save-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 22px 50px rgba(37,99,235,.30);
+        }
+        
+        .save-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+    .ico {
+        font-size: 16px;
+    }
+
+    /* Message */
+    .message {
+        border: 1px solid var(--border);
+        border-radius: var(--r-lg);
+        padding: 12px 14px;
+        background: var(--surface);
+        box-shadow: 0 12px 34px rgba(2,6,23,.06);
+        font-weight: 750;
+        color: var(--text);
+    }
+
+    /* Card */
+    .card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--r-xl);
+        padding: 16px;
+        box-shadow: 0 18px 50px rgba(2,6,23,.08);
+        backdrop-filter: blur(10px);
+    }
+
+    .editor-card {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .card.inner {
+        padding: 14px;
+        border-radius: var(--r-lg);
+        background: var(--surface);
+        box-shadow: none;
+    }
+
+    /* Fields */
+    .field {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .label {
+        font-size: 12px;
+        color: var(--muted);
+        font-weight: 900;
+        letter-spacing: .02em;
+    }
+
+    .ui-input {
+        width: 100%;
+        border: 1px solid var(--border);
+        background: var(--surface);
+        border-radius: 14px;
+        padding: 10px 12px;
+        min-height: 42px;
+        outline: none;
+        font-weight: 750;
+        color: var(--text);
+        transition: box-shadow .18s ease, border-color .18s ease, transform .18s ease;
+    }
+
+        .ui-input:focus {
+            border-color: rgba(37,99,235,.40);
+            box-shadow: 0 0 0 4px rgba(37,99,235,.12);
+            transform: translateY(-1px);
+        }
+
+    .ui-textarea {
+        width: 100%;
+        min-height: 320px;
+        border: 1px solid var(--border);
+        background: var(--surface);
+        border-radius: 14px;
+        padding: 10px 12px;
+        outline: none;
+        resize: vertical;
+        font-weight: 700;
+        line-height: 1.45;
+        color: var(--text);
+        transition: box-shadow .18s ease, border-color .18s ease, transform .18s ease;
+    }
+
+        .ui-textarea:focus {
+            border-color: rgba(37,99,235,.40);
+            box-shadow: 0 0 0 4px rgba(37,99,235,.12);
+            transform: translateY(-1px);
+        }
+
+    /* Section text */
+    .section-title {
+        font-weight: 950;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .section-sub {
+        margin-top: 4px;
+        font-size: 12px;
+        color: var(--muted);
+        font-weight: 650;
+    }
+
+    /* Toolbar */
+    .editor-head {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 12px;
+        flex-wrap: wrap;
+        padding: 10px 12px;
+        border-radius: var(--r-lg);
+        border: 1px solid rgba(37,99,235,.12);
+        background: linear-gradient(135deg, rgba(37,99,235,.08), rgba(6,182,212,.06));
+    }
+
+    .toolbar {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .tool-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        border: 1px solid rgba(37,99,235,.16);
+        background: var(--surface);
+        border-radius: 999px;
+        padding: 8px 12px;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 900;
+        color: var(--text);
+        transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+        box-shadow: 0 10px 22px rgba(2,6,23,.06);
+    }
+
+        .tool-btn:hover {
+            transform: translateY(-2px);
+            background: var(--surface);
+            box-shadow: 0 16px 44px rgba(2,6,23,.10);
+        }
+
+    /* Split editor */
+    .split {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+
+    .pane {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .pane-title {
+        font-size: 12px;
+        font-weight: 950;
+        color: var(--muted);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .preview {
+        border: 1px solid rgba(0,0,0,.08);
+        border-radius: 14px;
+        padding: 12px 14px;
+        min-height: 320px;
+        overflow: auto;
+        background: var(--surface);
+        box-shadow: 0 12px 34px rgba(2,6,23,.06);
+    }
+
+    /* Meta */
+    .meta-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+
+    /* Tag input wrapper */
+    .tagwrap {
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 8px 10px;
+        background: var(--surface);
+        box-shadow: 0 10px 22px rgba(2,6,23,.05);
+    }
+
+    /* Secondary moods */
+    .checks {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .check {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 12px;
+        border-radius: 16px;
+        border: 1px solid rgba(37,99,235,.14);
+        background: rgba(37,99,235,.06);
+        font-weight: 800;
+        color: var(--text);
+        transition: transform .18s ease, box-shadow .18s ease;
+    }
+
+        .check:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 12px 34px rgba(2,6,23,.08);
+        }
+
+        .check input {
+            width: 16px;
+            height: 16px;
+            accent-color: var(--accent);
+        }
+           
+    .back-btn {
+        text-decoration: none;
+        font-weight: 800;
+        color: var(--muted);
+        font-size: 13px;
+        padding: 6px 10px;
+        border-radius: 8px;
+    }
+    .back-btn:hover { background: rgba(0,0,0,.05); }
+
+</style>
+
+<div class="edit-page">
+    <div class="edit-head">
+        <div class="title-row">
+            <div class="title-badge">✏️</div>
+            <div>
+                <h2 class="edit-title">Edit Entry</h2>
+                <div style="margin-top:4px;">
+                    <a href="/entries" class="back-btn">⬅️ Back to Entries</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button type="button" class="save-btn" @onclick="UpdateAsync" disabled="@IsSaving">
+                @if (IsSaving)
+                {
+                    <span class="spinner"></span>
+                }
+                else
+                {
+                    <span class="ico">💾</span>
+                }
+                Update Entry
+            </button>
+        </div>
+    </div>
+
+    @if (!string.IsNullOrWhiteSpace(Message))
+    {
+        <div class="message">ℹ️ @Message</div>
+    }
+
+    @if (IsLoading)
+    {
+        <div class="card" style="padding:40px;text-align:center;color:var(--muted);">
+            Loading entry...
+        </div>
+    }
+    else if (Model == null)
+    {
+        <div class="card" style="padding:40px;text-align:center;color:red;">
+            Entry not found or deleted.
+        </div>
+    }
+    else
+    {
+        <div class="card editor-card">
+            <!-- Title -->
+            <div class="field">
+                <label class="label">📝 Title</label>
+                <input class="ui-input" @bind="Model.Title" placeholder="Title..." />
+            </div>
+
+            <!-- Date Override (Optional for Edit) -->
+            <div class="field">
+                <label class="label">📅 Date</label>
+                <input class="ui-input" type="date" @bind="Model.EntryDate" />
+            </div>
+
+            <!-- Markdown editor -->
+            <div class="editor-head">
+                <div>
+                    <div class="section-title">✍️ Content (Markdown)</div>
+                    <div class="section-sub">Edit your content.</div>
+                </div>
+
+                <div class="toolbar">
+                    <button class="tool-btn" type="button" @onclick="@(() => InsertMarkdown("**bold**"))">🅱️ Bold</button>
+                    <button class="tool-btn" type="button" @onclick="@(() => InsertMarkdown("*italic*"))">𝑖 Italic</button>
+                    <button class="tool-btn" type="button" @onclick="@(() => InsertMarkdown("# Heading"))">H1</button>
+                    <button class="tool-btn" type="button" @onclick="@(() => InsertMarkdown("## Heading"))">H2</button>
+                    <button class="tool-btn" type="button" @onclick="@(() => InsertMarkdown("- list item"))">• List</button>
+                    <button class="tool-btn" type="button" @onclick="@(() => InsertMarkdown("[text](https://example.com)"))">🔗 Link</button>
+                </div>
+            </div>
+
+            <div class="split">
+                <div class="pane">
+                    <div class="pane-title">🧩 Editor</div>
+                    <textarea class="ui-textarea" @bind="Model.Content"></textarea>
+                </div>
+
+                <div class="pane">
+                    <div class="pane-title">👀 Preview</div>
+                    <div class="preview">
+                        <MarkdownPreview Content="@Model.Content" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Meta -->
+            <div class="meta-grid">
+                <div class="field">
+                    <label class="label">🏷️ Category</label>
+                    <input class="ui-input" @bind="Model.Category" />
+                </div>
+
+                <div class="field">
+                    <label class="label">🙂 Primary Mood</label>
+                    <select class="ui-input" @bind="Model.PrimaryMood">
+                        @foreach (var mood in Enum.GetValues(typeof(JournalApp.Models.Enums.MoodType)))
+                        {
+                            <option value="@mood">@mood</option>
+                        }
+                    </select>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">🏷️ Tags</label>
+                <div class="tagwrap">
+                    <TagInput Value="@Model.Tags" ValueChanged="@(v => Model.Tags = v)" />
+                </div>
+            </div>
+
+            <!-- Secondary moods -->
+            <div class="card inner">
+                <div class="section-title">🎭 Secondary Moods (max 2)</div>
+                <div class="checks">
+                    @foreach (var mood in Enum.GetValues(typeof(JournalApp.Models.Enums.MoodType)))
+                    {
+                        var moodText = mood.ToString()!;
+                        <label class="check">
+                            <input type="checkbox"
+                                   checked="@SecondaryMoodSet.Contains(moodText)"
+                                   @onchange="(e => OnSecondaryMoodChanged(moodText, (bool)e.Value!))" />
+                            <span>@moodText</span>
+                        </label>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -495,7 +495,10 @@
                                     }
                                 }
                             </div>
-                            <a href="/entry/@e.Id" class="ui-btn sm">👀 View</a>
+                            <div class="ec-actions">
+                                <a href="/entry/edit/@e.Id" class="ui-btn sm" title="Edit">✏️</a>
+                                <button class="ui-btn sm danger" @onclick="() => ConfirmDelete(e)" title="Delete">🗑️</button>
+                            </div>
                         </div>
                     </div>
                 }
@@ -587,8 +590,23 @@
 
                 .ui-btn.sm {
                     padding: 6px 12px;
-                    font-size: 12px;
+                    font-size: 14px;
                     min-height: 32px;
+                }
+
+                .ui-btn.danger {
+                    background: rgba(239,68,68,.1);
+                    color: #b91c1c;
+                    border-color: rgba(239,68,68,.15);
+                }
+                .ui-btn.danger:hover {
+                    background: rgba(239,68,68,.2);
+                    transform: translateY(-2px);
+                }
+
+                .ec-actions {
+                    display: flex;
+                    gap: 6px;
                 }
             </style>
 
