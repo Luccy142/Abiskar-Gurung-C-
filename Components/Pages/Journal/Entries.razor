@@ -469,39 +469,128 @@
                 </div>
             </div>
 
-            <div class="table-wrap">
-                <table class="ui-table">
-                    <thead>
-                        <tr>
-                            <th>📅 Date</th>
-                            <th>📝 Title</th>
-                            <th>🙂 Primary Mood</th>
-                            <th>🏷️ Tags</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach (var e in PageEntries)
-                        {
-                            <tr class="row">
-                                <td class="mono">@e.EntryDate.ToString("yyyy-MM-dd")</td>
-                                <td class="title-cell">@e.Title</td>
-                                <td>
-                                    <span class="mood-pill">🙂 @e.PrimaryMood</span>
-                                </td>
-                                <td class="tags-cell">
-                                    @if (!string.IsNullOrWhiteSpace(e.Tags))
+            <div class="results-grid">
+                @foreach (var e in PageEntries)
+                {
+                    <div class="entry-card">
+                        <div class="ec-top">
+                            <div class="ec-date">@e.EntryDate.ToString("MMM dd, yyyy")</div>
+                            <span class="ec-mood">@GetMoodEmoji(e.PrimaryMood)</span>
+                        </div>
+
+                        <div class="ec-mid">
+                            <div class="ec-title">@e.Title</div>
+                            <div class="ec-preview">
+                                @(e.Content?.Length > 80 ? e.Content.Substring(0, 80) + "..." : e.Content)
+                            </div>
+                        </div>
+
+                        <div class="ec-bot">
+                            <div class="ec-tags">
+                                @if (!string.IsNullOrWhiteSpace(e.Tags))
+                                {
+                                    @foreach (var t in e.Tags.Split(',', StringSplitOptions.RemoveEmptyEntries).Take(2))
                                     {
-                                        @foreach (var t in e.Tags.Split(',', StringSplitOptions.RemoveEmptyEntries))
-                                        {
-                                            <span class="tag-pill">#@t.Trim()</span>
-                                        }
+                                        <span class="ec-tag">#@t.Trim()</span>
                                     }
-                                </td>
-                            </tr>
-                        }
-                    </tbody>
-                </table>
+                                }
+                            </div>
+                            <a href="/entry/@e.Id" class="ui-btn sm">👀 View</a>
+                        </div>
+                    </div>
+                }
             </div>
+
+            <style>
+                .results-grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+                    gap: 16px;
+                }
+
+                .entry-card {
+                    background: var(--surface);
+                    border: 1px solid var(--border);
+                    border-radius: 18px;
+                    padding: 16px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+                    transition: transform .2s ease, box-shadow .2s ease;
+                }
+
+                .entry-card:hover {
+                    transform: translateY(-4px);
+                    box-shadow: 0 14px 40px rgba(0,0,0,.08);
+                    border-color: rgba(37,99,235,.3);
+                }
+
+                .ec-top {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+                .ec-date {
+                    font-size: 12px;
+                    font-weight: 800;
+                    opacity: 0.6;
+                    text-transform: uppercase;
+                    letter-spacing: .05em;
+                }
+
+                .ec-mood {
+                    font-size: 24px;
+                    filter: drop-shadow(0 4px 12px rgba(0,0,0,.1));
+                }
+
+                .ec-title {
+                    font-size: 18px;
+                    font-weight: 850;
+                    margin-bottom: 6px;
+                    line-height: 1.3;
+                    color: var(--text);
+                }
+
+                .ec-preview {
+                    font-size: 13px;
+                    opacity: 0.8;
+                    line-height: 1.5;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 3;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                }
+
+                .ec-bot {
+                    margin-top: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-top: 12px;
+                    border-top: 1px solid var(--border);
+                }
+
+                .ec-tags {
+                    display: flex;
+                    gap: 6px;
+                }
+
+                .ec-tag {
+                    font-size: 11px;
+                    padding: 4px 8px;
+                    border-radius: 99px;
+                    background: rgba(37,99,235,.08);
+                    color: var(--accent);
+                    font-weight: 800;
+                }
+
+                .ui-btn.sm {
+                    padding: 6px 12px;
+                    font-size: 12px;
+                    min-height: 32px;
+                }
+            </style>
 
             <div class="pager">
                 <button class="ui-btn" @onclick="PrevPage" disabled="@(CurrentPage <= 1)">

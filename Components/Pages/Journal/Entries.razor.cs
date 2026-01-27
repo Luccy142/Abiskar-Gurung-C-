@@ -76,7 +76,6 @@ namespace JournalApp.Components.Pages.Journal
                     (e.Content ?? string.Empty).ToLower().Contains(q));
             }
 
-            var filteredList = filtered.ToList();
             if (FromDate.HasValue)
             {
                 filtered = filtered.Where(e => e.EntryDate.Date >= FromDate.Value.Date);
@@ -96,6 +95,9 @@ namespace JournalApp.Components.Pages.Journal
                 filtered = filtered.Where(e => (e.Tags ?? string.Empty).ToLower().Contains(t));
             }
 
+            // Execute query after ALL filters are applied
+            var filteredList = filtered.OrderByDescending(e => e.EntryDate).ToList();
+
             TotalPages = filteredList.Count == 0 ? 1 : (int)Math.Ceiling(filteredList.Count / (double)PageSize);
 
             if (filteredList.Count == 0)
@@ -110,6 +112,29 @@ namespace JournalApp.Components.Pages.Journal
                 .Skip((CurrentPage - 1) * PageSize)
                 .Take(PageSize)
                 .ToList();
+        }
+
+        private string GetMoodEmoji(JournalApp.Models.Enums.MoodType mood)
+        {
+            return mood switch
+            {
+                JournalApp.Models.Enums.MoodType.Happy => "😃",
+                JournalApp.Models.Enums.MoodType.Excited => "🤩",
+                JournalApp.Models.Enums.MoodType.Relaxed => "😌",
+                JournalApp.Models.Enums.MoodType.Grateful => "🥰",
+                JournalApp.Models.Enums.MoodType.Confident => "😎",
+                JournalApp.Models.Enums.MoodType.Calm => "🌿",
+                JournalApp.Models.Enums.MoodType.Thoughtful => "🤔",
+                JournalApp.Models.Enums.MoodType.Curious => "🧐",
+                JournalApp.Models.Enums.MoodType.Nostalgic => "📻",
+                JournalApp.Models.Enums.MoodType.Bored => "😑",
+                JournalApp.Models.Enums.MoodType.Sad => "😢",
+                JournalApp.Models.Enums.MoodType.Angry => "😠",
+                JournalApp.Models.Enums.MoodType.Stressed => "😫",
+                JournalApp.Models.Enums.MoodType.Lonely => "🥀",
+                JournalApp.Models.Enums.MoodType.Anxious => "😰",
+                _ => "🙂"
+            };
         }
 
 
