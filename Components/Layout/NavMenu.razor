@@ -1,4 +1,5 @@
 ﻿@namespace JournalApp.Components.Layout
+@inject NavigationManager Nav
 
 <style>
     /* ===== LIGHT PROFESSIONAL THEME ===== */
@@ -132,14 +133,16 @@
     <div class="container-fluid">
         <a class="navbar-brand" href="">
             <span class="brand-dot"></span>
-            MyJornal
+            <div style="display:flex; flex-direction:column; line-height:1.1;">
+                <span>MyJornal</span>
+                <span style="font-size: 10px; opacity: 0.7; font-weight: 500;">Welcome Back</span>
+            </div>
         </a>
     </div>
 </div>
 
-<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
-
-<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+<!-- Toggler removed as requested -->
+<div class="nav-scrollable">
     <nav aria-label="Main navigation">
         <ul class="nav-list">
 
@@ -175,7 +178,7 @@
                 </NavLink>
             </li>
 
-            <li class="nav-section">Preferences</li>
+            <li class="nav-section">Settings</li>
 
             <li class="nav-item px-3">
                 <NavLink class="nav-link" href="/settings/theme">
@@ -189,6 +192,19 @@
                 </NavLink>
             </li>
 
+            <li class="nav-item px-3">
+                <button class="nav-link" @onclick="LockApp" style="background:none; border:none; width:100%; text-align:left; cursor:pointer;">
+                    <span class="nav-ico">🔒</span> Lock
+                </button>
+            </li>
+
         </ul>
     </nav>
 </div>
+
+@code {
+    private void LockApp()
+    {
+        Nav.NavigateTo("/lock", true);
+    }
+}
