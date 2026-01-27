@@ -143,7 +143,7 @@ namespace JournalApp.Components.Pages.Journal
 
         protected async Task ConfirmDelete(JournalEntry entry)
         {
-            bool confirmed = await JS.InvokeAsync<bool>("confirm", $"Are you sure you want to delete '{entry.Title}'?");
+            bool confirmed = await JS.InvokeAsync<bool>("confirm", new object[] { $"Are you sure you want to delete '{entry.Title}'?" });
             if (confirmed)
             {
                 await Repo.DeleteAsync(entry);

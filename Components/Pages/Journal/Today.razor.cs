@@ -28,7 +28,7 @@ namespace JournalApp.Components.Pages.Journal
             Model.Content += snippet;
         }
 
-        protected override async Task OnInitializedAsync()
+        protected override void OnInitialized()
         {
             // Always start fresh for "Today's Journal" as requested.
             // User can write multiple entries per day.
