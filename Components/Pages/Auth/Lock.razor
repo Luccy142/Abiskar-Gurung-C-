@@ -4,40 +4,82 @@
 @inject NavigationManager Nav
 @inject JournalApp.Services.Implementations.SessionService Session
 
-<h3>Journal Lock</h3>
+<div class="lock-page">
+    <div class="lock-card">
+        <h3 class="lock-title">Journal Lock</h3>
 
-<div style="max-width: 420px;">
-    @if (!IsReady)
-    {
-        <p>Loading...</p>
-    }
-    else if (!PinIsSet)
-    {
-        <p><b>Set a PIN</b> (4 to 8 digits)</p>
+        <div class="lock-body">
+            @if (!IsReady)
+            {
+                <p>Loading...</p>
+            }
+            else if (!PinIsSet)
+            {
+                <p class="lock-msg"><b>Set a PIN</b> (4 to 8 digits)</p>
 
-        <input style="width:100%;" placeholder="Enter new PIN" type="password" @bind="Pin" />
-        <input style="width:100%; margin-top:8px;" placeholder="Confirm PIN" type="password" @bind="ConfirmPin" />
+                <input class="ui-input" style="width:100%;" placeholder="Enter new PIN" type="password" @bind="Pin" />
+                <input class="ui-input" style="width:100%; margin-top:8px;" placeholder="Confirm PIN" type="password" @bind="ConfirmPin" />
 
-        <div style="margin-top: 12px;">
-            <button @onclick="SetPinAsync">Save PIN</button>
+                <div style="margin-top: 16px;">
+                    <button class="ui-btn primary" style="width:100%" @onclick="SetPinAsync">Save PIN</button>
+                </div>
+            }
+            else
+            {
+                <p class="lock-msg"><b>Enter PIN</b></p>
+
+                <input class="ui-input" style="width:100%;" placeholder="PIN" type="password" @bind="Pin" />
+
+                <div style="margin-top: 16px;">
+                    <button class="ui-btn primary" style="width:100%" @onclick="UnlockAsync">Unlock</button>
+                </div>
+            }
+
+            @if (!string.IsNullOrWhiteSpace(Message))
+            {
+                <p class="lock-error">@Message</p>
+            }
         </div>
-    }
-    else
-    {
-        <p><b>Enter PIN</b></p>
-
-        <input style="width:100%;" placeholder="PIN" type="password" @bind="Pin" />
-
-        <div style="margin-top: 12px;">
-            <button @onclick="UnlockAsync">Unlock</button>
-        </div>
-    }
-
-    @if (!string.IsNullOrWhiteSpace(Message))
-    {
-        <p style="margin-top:10px;">@Message</p>
-    }
+    </div>
 </div>
+
+<style>
+    .lock-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+        width: 100%;
+    }
+
+    .lock-card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 24px;
+        padding: 40px;
+        width: 100%;
+        max-width: 400px;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+
+    .lock-title {
+        margin: 0 0 24px 0;
+        font-weight: 900;
+        color: var(--text);
+    }
+
+    .lock-msg {
+        opacity: 0.8;
+        margin-bottom: 16px;
+    }
+
+    .lock-error {
+        margin-top: 16px;
+        color: var(--bad);
+        font-weight: bold;
+    }
+</style>
 
 @code {
     private bool IsReady;
