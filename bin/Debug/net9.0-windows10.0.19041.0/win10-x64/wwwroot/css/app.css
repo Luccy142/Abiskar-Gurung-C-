@@ -137,7 +137,7 @@ h1:focus {
     display: flex;
     flex-direction: column;
     gap: 14px;
-    max-width: 1100px;
+    width: 100%;
 }
 
 .dash-head {
@@ -476,7 +476,7 @@ h1:focus {
     display: flex;
     flex-direction: column;
     gap: 14px;
-    max-width: 1100px;
+    width: 100%;
 }
 
 .cal-head {
@@ -694,7 +694,7 @@ main {
 }
 
 .content {
-    max-width: 1000px;
+    width: 100%;
 }
 
 .app-shell {

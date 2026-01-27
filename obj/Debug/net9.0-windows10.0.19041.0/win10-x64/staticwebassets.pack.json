@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JournalApp\\wwwroot\\img\\texture.png",
+      "PackagePath": "staticwebassets\\img\\texture.png"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JournalApp\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
