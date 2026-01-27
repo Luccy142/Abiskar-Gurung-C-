@@ -32,8 +32,16 @@
 
 /* Apply basic theme */
 body {
-    background: var(--bg);
+    background-color: var(--bg);
+    background-image:
+        url('../img/texture.png'),
+        radial-gradient(900px 900px at 10% 10%, rgba(151, 135, 243, 0.18), transparent),
+        radial-gradient(900px 900px at 90% 90%, rgba(151, 135, 243, 0.18), transparent);
+    background-repeat: repeat, no-repeat, no-repeat;
+    background-blend-mode: multiply, normal, normal;
+    background-size: 400px, cover, cover;
     color: var(--text);
+    min-height: 100vh;
 }
 
 table,
