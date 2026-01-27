@@ -393,19 +393,19 @@
             </div>
         </div>
 
-        <div class="today-actions">
-            <button class="ui-btn primary" @onclick="SaveAsync" disabled="@(!CanSave || IsSaving)" type="button">
-                <span class="btn-ico">💾</span>
-                @(IsSaving ? "Saving..." : "Save / Update")
+        <div class="actions">
+            <!-- Save Button -->
+            <button type="submit" class="save-btn" disabled="@IsSaving">
+                @if (IsSaving)
+                {
+                    <span class="spinner"></span>
+                }
+                else
+                {
+                    <span class="ico">💾</span>
+                }
+                Save / Create
             </button>
-
-            @if (HasEntry)
-            {
-                <button class="ui-btn danger" @onclick="DeleteAsync" type="button">
-                    <span class="btn-ico">🗑️</span>
-                    Delete
-                </button>
-            }
         </div>
     </div>
 

@@ -30,26 +30,14 @@ namespace JournalApp.Components.Pages.Journal
 
         protected override async Task OnInitializedAsync()
         {
-            var todayEntry = await JournalService.GetTodayEntryAsync();
-
-            if (todayEntry != null)
-            {
-                Model = todayEntry;
-                HasEntry = true;
-
-                SecondaryMoodSet.Clear();
-                if (!string.IsNullOrWhiteSpace(Model.SecondaryMoods))
-                {
-                    foreach (var m in Model.SecondaryMoods.Split(',', StringSplitOptions.RemoveEmptyEntries))
-                        SecondaryMoodSet.Add(m.Trim());
-                }
-            }
-
-            else
-            {
-                Model.EntryDate = DateTime.Today;
-                HasEntry = false;
-            }
+            // Always start fresh for "Today's Journal" as requested.
+            // User can write multiple entries per day.
+            Model = new JournalEntry 
+            { 
+                EntryDate = DateTime.Today 
+            };
+            SecondaryMoodSet.Clear();
+            HasEntry = false;
         }
         protected void OnSecondaryMoodChanged(string mood, bool isChecked)
         {
@@ -115,30 +103,8 @@ namespace JournalApp.Components.Pages.Journal
             IsSaving = false;
         }
 
-        protected async Task DeleteAsync()
-        {
-            Message = string.Empty;
+        // Delete functionality moved to Journal Entries list
 
-            try
-            {
-                var deleted = await JournalService.DeleteTodayAsync();
-                if (deleted)
-                {
-                    Model = new JournalEntry { EntryDate = DateTime.Today };
-                    HasEntry = false;
-                    Message = "Deleted successfully.";
-                }
-                else
-                {
-                    Message = "No entry found to delete.";
-                }
-            }
-            catch (Exception ex)
-            {
-                Message = "Something went wrong while deleting. Please try again.";
-                Console.WriteLine(ex);
-            }
-        }
 
     }
 }
