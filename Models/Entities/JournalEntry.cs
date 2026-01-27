@@ -8,7 +8,7 @@ namespace JournalApp.Models.Entities
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
 
-        [Unique]
+        // Removed [Unique] to allow multiple entries per day
         public DateTime EntryDate { get; set; }
 
         public string Title { get; set; } = string.Empty;

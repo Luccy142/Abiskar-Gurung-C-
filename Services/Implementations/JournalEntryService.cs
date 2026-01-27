@@ -51,7 +51,7 @@ namespace JournalApp.Services.Implementations
             
             var newEntry = new JournalEntry
             {
-                EntryDate = today,
+                EntryDate = input.EntryDate, // Use provided date/time (DateTime.Now from UI)
                 Title = input.Title?.Trim() ?? string.Empty,
                 Content = input.Content ?? string.Empty,
                 PrimaryMood = input.PrimaryMood,

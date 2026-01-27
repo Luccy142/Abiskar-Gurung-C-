@@ -34,7 +34,7 @@ namespace JournalApp.Components.Pages.Journal
             // User can write multiple entries per day.
             Model = new JournalEntry 
             { 
-                EntryDate = DateTime.Today 
+                EntryDate = DateTime.Now 
             };
             SecondaryMoodSet.Clear();
             HasEntry = false;
@@ -89,7 +89,7 @@ namespace JournalApp.Components.Pages.Journal
             {
                 var saved = await JournalService.CreateOrUpdateTodayAsync(Model);
                 // Reset for next entry as requested
-                Model = new JournalEntry { EntryDate = DateTime.Today };
+                Model = new JournalEntry { EntryDate = DateTime.Now };
                 HasEntry = false;
                 SecondaryMoodSet.Clear();
                 
@@ -97,7 +97,7 @@ namespace JournalApp.Components.Pages.Journal
             }
             catch (Exception ex)
             {
-                Message = "Something went wrong while saving. Please try again.";
+                Message = $"Error: {ex.Message}";
                 Console.WriteLine(ex);
             }
             IsSaving = false;
