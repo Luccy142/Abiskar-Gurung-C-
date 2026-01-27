@@ -395,7 +395,7 @@
 
         <div class="actions">
             <!-- Save Button -->
-            <button type="submit" class="save-btn" disabled="@IsSaving">
+            <button type="button" class="save-btn" @onclick="SaveAsync" disabled="@IsSaving">
                 @if (IsSaving)
                 {
                     <span class="spinner"></span>
@@ -404,7 +404,7 @@
                 {
                     <span class="ico">💾</span>
                 }
-                Save / Create
+                Save
             </button>
         </div>
     </div>
