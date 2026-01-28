@@ -1,6 +1,4 @@
 ﻿@namespace JournalApp.Components.Layout
-@inject NavigationManager Nav
-@using JournalApp.Services.Implementations
 
 <style>
     /* ===== LIGHT PROFESSIONAL THEME ===== */
@@ -199,21 +197,13 @@
             </li>
 
             <li class="nav-item px-3">
-                <button class="nav-link" @onclick="LockApp" style="background:none; border:none; width:100%; text-align:left; cursor:pointer;">
+                <NavLink class="nav-link" href="/settings/lock">
                     <span class="nav-ico">🔒</span> Lock
-                </button>
+                </NavLink>
             </li>
 
         </ul>
     </nav>
 </div>
 
-@code {
-    [Inject] SessionService Session { get; set; } = default!;
 
-    private void LockApp()
-    {
-        Session.IsUnlocked = false; // Force lock state
-        Nav.NavigateTo("/lock", true);
-    }
-}

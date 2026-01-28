@@ -1,0 +1,360 @@
+@namespace JournalApp.Components.Pages.Settings
+@page "/settings/lock"
+@inject JournalApp.Services.Interfaces.IAuthService AuthService
+@inject NavigationManager Nav
+@inject JournalApp.Services.Implementations.SessionService Session
+
+<style>
+    :root {
+        --r-xl: 22px;
+        --r-lg: 18px;
+        --r-md: 14px;
+    }
+
+    .lock-settings-page {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        padding: 18px;
+        border-radius: var(--r-xl);
+        border: 1px solid var(--border);
+        background: transparent;
+        box-shadow: 0 18px 50px rgba(2,6,23,.06);
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        color: var(--text);
+    }
+
+    /* Header */
+    .lock-head {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 14px;
+        flex-wrap: wrap;
+        padding: 6px 2px 2px;
+    }
+
+    .title-row {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+    }
+
+    .title-badge {
+        width: 52px;
+        height: 52px;
+        border-radius: 18px;
+        background: linear-gradient(135deg, var(--accent), var(--accent2));
+        box-shadow: 0 16px 40px rgba(37,99,235,.22);
+        display: grid;
+        place-items: center;
+        color: white;
+        font-size: 20px;
+        flex: 0 0 auto;
+    }
+
+    .lock-title {
+        margin: 0;
+        font-size: 1.55rem;
+        font-weight: 950;
+        letter-spacing: .2px;
+    }
+
+    .lock-subtitle {
+        margin-top: 6px;
+        color: var(--muted);
+        font-size: 14px;
+    }
+
+    /* Card */
+    .card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--r-xl);
+        padding: 16px;
+        box-shadow: 0 18px 50px rgba(2,6,23,.08);
+        backdrop-filter: blur(10px);
+    }
+
+    .card-content {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    /* Fields */
+    .field {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .label {
+        font-size: 12px;
+        color: var(--muted);
+        font-weight: 900;
+        letter-spacing: .02em;
+    }
+
+    .ui-input {
+        width: 100%;
+        border: 1px solid var(--border);
+        background: var(--surface);
+        border-radius: 14px;
+        padding: 10px 12px;
+        min-height: 42px;
+        outline: none;
+        font-weight: 750;
+        color: var(--text);
+        transition: box-shadow .18s ease, border-color .18s ease, transform .18s ease;
+    }
+
+    .ui-input:focus {
+        border-color: rgba(37,99,235,.40);
+        box-shadow: 0 0 0 4px rgba(37,99,235,.12);
+        transform: translateY(-1px);
+    }
+
+    /* Buttons */
+    .ui-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid var(--border);
+        background: var(--surface);
+        border-radius: 14px;
+        padding: 10px 14px;
+        cursor: pointer;
+        min-height: 44px;
+        font-weight: 900;
+        color: var(--text);
+        box-shadow: 0 10px 22px rgba(2,6,23,.06);
+        transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+        white-space: nowrap;
+    }
+
+    .ui-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 16px 44px rgba(2,6,23,.10);
+        background: var(--surface);
+    }
+
+    .ui-btn:disabled {
+        opacity: .45;
+        cursor: not-allowed;
+        transform: none;
+        box-shadow: none;
+    }
+
+    .ui-btn.primary {
+        border: none;
+        color: white;
+        background: linear-gradient(135deg, var(--accent), var(--accent2));
+        box-shadow: 0 18px 44px rgba(37,99,235,.22);
+    }
+
+    .ui-btn.danger {
+        border: 1px solid rgba(239,68,68,.22);
+        background: rgba(239,68,68,.08);
+        color: #dc2626;
+    }
+
+    .btn-ico {
+        width: 34px;
+        height: 34px;
+        border-radius: 12px;
+        display: grid;
+        place-items: center;
+        background: rgba(37,99,235,.10);
+        border: 1px solid rgba(37,99,235,.16);
+    }
+
+    .ui-btn.primary .btn-ico {
+        background: rgba(255,255,255,.18);
+        border-color: rgba(255,255,255,.18);
+    }
+
+    .ui-btn.danger .btn-ico {
+        background: rgba(239,68,68,.10);
+        border-color: rgba(239,68,68,.18);
+    }
+
+    /* Message */
+    .message {
+        border: 1px solid var(--border);
+        border-radius: var(--r-lg);
+        padding: 12px 14px;
+        background: var(--surface);
+        box-shadow: 0 12px 34px rgba(2,6,23,.06);
+        font-weight: 750;
+        color: var(--text);
+    }
+
+    .message.success {
+        border-color: rgba(34,197,94,.35);
+        background: rgba(34,197,94,.08);
+        color: #16a34a;
+    }
+
+    .message.error {
+        border-color: rgba(239,68,68,.35);
+        background: rgba(239,68,68,.08);
+        color: #dc2626;
+    }
+
+    .section-title {
+        font-weight: 950;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 4px;
+    }
+
+    .section-sub {
+        font-size: 12px;
+        color: var(--muted);
+        font-weight: 650;
+        margin-bottom: 12px;
+    }
+
+    .button-group {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 8px;
+    }
+</style>
+
+<div class="lock-settings-page">
+    <div class="lock-head">
+        <div class="title-row">
+            <div class="title-badge">🔐</div>
+            <div>
+                <h2 class="lock-title">Lock Settings</h2>
+                <p class="lock-subtitle">Manage your PIN and lock the application</p>
+            </div>
+        </div>
+    </div>
+
+    @if (!string.IsNullOrWhiteSpace(Message))
+    {
+        <div class="message @MessageClass">ℹ️ @Message</div>
+    }
+
+    <!-- Change PIN Section -->
+    <div class="card">
+        <div class="card-content">
+            <div class="section-title">🔑 Change PIN</div>
+            <div class="section-sub">Update your PIN to secure your journal</div>
+
+            <div class="field">
+                <label class="label">Current PIN</label>
+                <input class="ui-input" type="password" @bind="CurrentPin" placeholder="Enter current PIN" />
+            </div>
+
+            <div class="field">
+                <label class="label">New PIN (4-8 digits)</label>
+                <input class="ui-input" type="password" @bind="NewPin" placeholder="Enter new PIN" />
+            </div>
+
+            <div class="field">
+                <label class="label">Confirm New PIN</label>
+                <input class="ui-input" type="password" @bind="ConfirmPin" placeholder="Confirm new PIN" />
+            </div>
+
+            <button class="ui-btn primary" @onclick="ChangePinAsync" disabled="@IsChangingPin">
+                @if (IsChangingPin)
+                {
+                    <span class="btn-ico">⏳</span>
+                }
+                else
+                {
+                    <span class="btn-ico">💾</span>
+                }
+                Change PIN
+            </button>
+        </div>
+    </div>
+
+    <!-- Lock App Section -->
+    <div class="card">
+        <div class="card-content">
+            <div class="section-title">🔒 Lock Application</div>
+            <div class="section-sub">Lock the app immediately. You'll need to enter your PIN to unlock.</div>
+
+            <button class="ui-btn danger" @onclick="LockApp">
+                <span class="btn-ico">🔒</span>
+                Lock Now
+            </button>
+        </div>
+    </div>
+</div>
+
+@code {
+    private string CurrentPin = string.Empty;
+    private string NewPin = string.Empty;
+    private string ConfirmPin = string.Empty;
+    private string Message = string.Empty;
+    private string MessageClass = string.Empty;
+    private bool IsChangingPin = false;
+
+    private async Task ChangePinAsync()
+    {
+        Message = string.Empty;
+        MessageClass = string.Empty;
+        IsChangingPin = true;
+
+        // Validate current PIN
+        var isCurrentValid = await AuthService.VerifyPinAsync(CurrentPin);
+        if (!isCurrentValid)
+        {
+            Message = "Current PIN is incorrect.";
+            MessageClass = "error";
+            IsChangingPin = false;
+            return;
+        }
+
+        // Validate new PIN
+        if (NewPin != ConfirmPin)
+        {
+            Message = "New PIN and confirmation do not match.";
+            MessageClass = "error";
+            IsChangingPin = false;
+            return;
+        }
+
+        if (NewPin.Length < 4 || NewPin.Length > 8 || !NewPin.All(char.IsDigit))
+        {
+            Message = "PIN must be 4-8 digits only.";
+            MessageClass = "error";
+            IsChangingPin = false;
+            return;
+        }
+
+        // Set new PIN
+        var success = await AuthService.SetPinAsync(NewPin);
+        if (success)
+        {
+            Message = "PIN changed successfully!";
+            MessageClass = "success";
+            CurrentPin = string.Empty;
+            NewPin = string.Empty;
+            ConfirmPin = string.Empty;
+        }
+        else
+        {
+            Message = "Failed to change PIN. Please try again.";
+            MessageClass = "error";
+        }
+
+        IsChangingPin = false;
+    }
+
+    private void LockApp()
+    {
+        Session.IsUnlocked = false;
+        Nav.NavigateTo("/lock", true);
+    }
+}
