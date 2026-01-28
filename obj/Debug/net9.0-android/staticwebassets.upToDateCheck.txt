@@ -1,8 +1,0 @@
-wwwroot\css\app.css
-wwwroot\css\bootstrap\bootstrap.min.css
-wwwroot\css\bootstrap\bootstrap.min.css.map
-wwwroot\index.html
-D:\MyJornal\MyJornal\MyJornal\MyJornal\wwwroot\css\app.css
-D:\MyJornal\MyJornal\MyJornal\MyJornal\wwwroot\css\bootstrap\bootstrap.min.css
-D:\MyJornal\MyJornal\MyJornal\MyJornal\wwwroot\css\bootstrap\bootstrap.min.css.map
-D:\MyJornal\MyJornal\MyJornal\MyJornal\wwwroot\index.html
