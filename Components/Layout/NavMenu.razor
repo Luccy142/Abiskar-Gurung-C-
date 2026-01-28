@@ -16,8 +16,9 @@
         --nav-radius: 18px;
     }
 
-    :root[data-theme="dark"] {
-        --nav-text: #EAEEFE;
+    /* Dark mode color for navigation items (excluding Lock) */
+    :root[data-theme="dark"] .nav-link.themed {
+        color: #EAEEFE !important;
     }
 
     /* Top bar */
@@ -154,31 +155,31 @@
             <li class="nav-section">Navigation</li>
 
             <li class="nav-item px-3">
-                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <NavLink class="nav-link themed" href="" Match="NavLinkMatch.All">
                     <span class="nav-ico">🏠</span> Home
                 </NavLink>
             </li>
 
             <li class="nav-item px-3">
-                <NavLink class="nav-link" href="/dashboard">
+                <NavLink class="nav-link themed" href="/dashboard">
                     <span class="nav-ico">📊</span> Dashboard
                 </NavLink>
             </li>
 
             <li class="nav-item px-3">
-                <NavLink class="nav-link" href="/today">
+                <NavLink class="nav-link themed" href="/today">
                     <span class="nav-ico">📘</span> Today Journal
                 </NavLink>
             </li>
 
             <li class="nav-item px-3">
-                <NavLink class="nav-link" href="/entries">
+                <NavLink class="nav-link themed" href="/entries">
                     <span class="nav-ico">📄</span> Journal Entries
                 </NavLink>
             </li>
 
             <li class="nav-item px-3">
-                <NavLink class="nav-link" href="/calendar">
+                <NavLink class="nav-link themed" href="/calendar">
                     <span class="nav-ico">📅</span> Calendar
                 </NavLink>
             </li>
@@ -186,13 +187,13 @@
             <li class="nav-section">Settings</li>
 
             <li class="nav-item px-3">
-                <NavLink class="nav-link" href="/settings/theme">
+                <NavLink class="nav-link themed" href="/settings/theme">
                     <span class="nav-ico">🎨</span> Theme Settings
                 </NavLink>
             </li>
 
             <li class="nav-item px-3">
-                <NavLink class="nav-link" href="/export">
+                <NavLink class="nav-link themed" href="/export">
                     <span class="nav-ico">⬇️</span> Export PDF
                 </NavLink>
             </li>
